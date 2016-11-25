@@ -13,9 +13,13 @@
  *= require_tree .
  *= require_self
  */
- 
+/* Bootstrap imports */ 
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
+
+/* Font Awesome imports */
+@import "font-awesome-sprockets";
+@import "font-awesome";
  
 h1, h2, h3 {
     font-family: 'Roboto', sans-serif;
