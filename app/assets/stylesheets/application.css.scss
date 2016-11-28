@@ -21,8 +21,12 @@
 @import "font-awesome-sprockets";
 @import "font-awesome";
  
-h1, h2, h3 {
+h1, h2, h3, .form-label {
     font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    text-align: center;
 }
 
 .home-callout, .navbar {
