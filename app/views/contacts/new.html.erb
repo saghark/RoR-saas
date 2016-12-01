@@ -2,9 +2,10 @@
   <div class="">
     <h1>Contact Us</h1>
   </div>
-  <%= form_for "/contacts" do |f| %>
+  <%= form_for @contact do |f| %>
   <div class="row">
       <div class="col-sm-4"></div>
+      <%= flash[:notice] %>
       <div class="col-sm-4 well">
         <div class="form-group">
           <%= f.label :name, class: 'form-label' %>
